@@ -1,0 +1,23 @@
+
+.container {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.text{
+  font-weight: 100;
+  font-size: 80px;
+  color: #FAFAFA;
+}
+.dud{
+  color: rgb(81, 104, 141);
+}
+@media (max-width: 992px) {
+  .text{
+    font-weight: 45;
+    font-size: 40px;
+    color: #FAFAFA;
+  }
+}
